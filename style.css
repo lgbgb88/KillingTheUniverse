@@ -1,0 +1,79 @@
+body {
+	background-size: white;
+}
+
+.div-panel {
+	background-image: url(img/background.png);
+	background-size: cover;
+	background-color: white;
+
+	/*Centrando el div*/
+	width: 90%;
+	height: 35rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(
+		-50%,
+		-50%
+	); /*Posicionar el div en medio de la pantalla*/
+
+	/*Los bordes*/
+	border-radius: 2.5rem;
+
+	/*Shadow*/
+	box-shadow: 14px 20px 22px 10px rgba(0, 0, 0, 0.2),
+		0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div-stardust {
+	position: absolute;
+	margin-top: 4rem;
+	margin-left: 21rem;
+	width: 40%;
+}
+
+input {
+	margin-top: 5rem;
+	margin-left: 21rem;
+}
+
+h1 {
+	font-family: 'Lexend Deca', sans-serif;
+	text-align: center;
+	font-size: 60px;
+
+	color: black;
+	text-shadow: 2px 2px 4px #686868;
+
+	margin-top: 2rem;
+}
+
+h2 {
+	font-family: 'Lexend Deca', sans-serif;
+	text-align: left;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+h3 {
+	background-color: rgba(0, 0, 0, 0.171);
+	margin: 0rem 8rem 0rem 10rem;
+
+	/*Estilo*/
+	text-align: center;
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 14px;
+
+	color: white;
+	text-shadow: 2px 2px 4px #686868;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+button {
+	background-color: white;
+	border-radius: 20rem;
+	margin-left: 46%;
+	font-family: 'Lexend Deca', sans-serif;
+}
